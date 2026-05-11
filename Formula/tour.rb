@@ -1,5 +1,5 @@
 class Tour < Formula
-  desc "Local code review tool with AI annotations: TUI + webapp over a pinned git diff"
+  desc "Local code walkthroughs for the code your AI agent wrote — TUI + webapp over a pinned git diff"
   homepage "https://github.com/a9a4k/tour"
   version "1.7.1"
   license "MIT"
