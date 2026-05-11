@@ -1,28 +1,28 @@
 class Tour < Formula
   desc "Local code review tool with AI annotations: TUI + webapp over a pinned git diff"
   homepage "https://github.com/a9a4k/tour"
-  version "1.2.1"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/a9a4k/tour/releases/download/v#{version}/tour-darwin-arm64"
-      sha256 "7f0c9b568f534992aaca535d7a763fe3fccfc3acc60dbb20f970e7eb0c69a12b"
+      sha256 "87373c82c3d6ff6affb535a3bfb3cc1b1f077a06d69f1dbc928719463f2db9f7"
     end
     on_intel do
       url "https://github.com/a9a4k/tour/releases/download/v#{version}/tour-darwin-x64"
-      sha256 "e0def58f6e28d440480941b25d142b83eb8b253e461253ef22fa9eeec6c8f1d2"
+      sha256 "42970076742bf43cecf1b6fb2dd5f3a59f99cba20d3bb55cdebb756e968b1616"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/a9a4k/tour/releases/download/v#{version}/tour-linux-arm64"
-      sha256 "5dd5a3813b1949ffff2262009740aa2e1e7ae788691e417b8b43043ee79b0c0e"
+      sha256 "2c8a69c0fcfb39aeeb02cd114836f3ebc06fd294b7b7d07be786b277327f7744"
     end
     on_intel do
       url "https://github.com/a9a4k/tour/releases/download/v#{version}/tour-linux-x64"
-      sha256 "caef112ba995c5bcb39dfd6de9a73378d65b817b57f3fc1edb164423cc9a93dc"
+      sha256 "a6db1a9d0725bd848b78082a3cf7410d9ac67f32789bc6347090ff5bbf471a96"
     end
   end
 
